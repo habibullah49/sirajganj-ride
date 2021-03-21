@@ -1,0 +1,46 @@
+.bike {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 3px;
+    background-color: rgb(255, 253, 253);
+    margin-bottom: 10px;
+  }
+  .divStyle {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    background-color: rgb(254, 255, 255);
+    padding-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .main-content {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .image {
+    width: 60%;
+  }
+  .text {
+  }
+  
+  .bike {
+    width: 300px;
+    height: 100px;
+  }
+  .images {
+    width: 30%;
+  }
+  @media only screen and (min-width: 768px) {
+    .main-content {
+      display: flex;
+    }
+    .text {
+      margin-bottom: 10px;
+    }
+    img {
+      margin-top: 10px;
+      width: 5%;
+    }
+  }
+  

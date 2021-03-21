@@ -1,0 +1,26 @@
+.main-content {
+  display: inline-block;
+  margin-top: 50px;
+  text-align: center;
+}
+.image {
+  width: 70%;
+}
+.text {
+  margin-left: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-content {
+    display: flex;
+  }
+  .text {
+    margin-bottom: 10px;
+  }
+  img {
+    margin-top: 10px;
+    width: 5%;
+  }
+}
